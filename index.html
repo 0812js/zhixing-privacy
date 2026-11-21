@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>知行排程隐私政策</title>
+  <style>
+    :root {
+      --bg: #f4f1ea;
+      --surface: #fbf9f4;
+      --surface-soft: #eee9de;
+      --ink: #151b17;
+      --ink-sub: #3a433d;
+      --muted: #606b63;
+      --brand: #2e463b;
+      --accent: #c78232;
+      --line: rgba(21, 27, 23, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: radial-gradient(circle at top center, #faf7f0 0%, var(--bg) 68%, #eae4d7 100%);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "HarmonyOS Sans SC", "Microsoft YaHei", "Noto Serif SC", serif, sans-serif;
+      line-height: 1.8;
+      -webkit-font-smoothing: antialiased;
+      padding: 36px 16px 64px;
+    }
+
+    .sheet {
+      max-width: 740px;
+      margin: 0 auto;
+      background: var(--surface);
+      border: 1px solid rgba(255, 255, 255, 0.9);
+      box-shadow: 0 20px 60px rgba(17, 24, 20, 0.08);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .hero {
+      background: linear-gradient(155deg, #101915 0%, #18251e 100%);
+      color: #f6f4ec;
+      padding: 36px 32px 30px;
+      position: relative;
+    }
+
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      letter-spacing: 0.12em;
+      color: #e7a95a;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #e7a95a;
+      display: inline-block;
+    }
+
+    .hero h1 {
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      margin-bottom: 12px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      font-size: 13px;
+      color: #b7c6bd;
+    }
+
+    .summary-strip {
+      margin-top: 18px;
+      padding: 14px 16px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      font-size: 13.5px;
+      color: #dce4df;
+    }
+
+    .body {
+      padding: 28px 32px 36px;
+    }
+
+    section {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+      padding-bottom: 6px;
+    }
+
+    h2 {
+      font-size: 16.5px;
+      font-weight: 600;
+      color: var(--brand);
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 14.5px;
+      color: var(--ink-sub);
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      background: var(--surface-soft);
+      color: var(--brand);
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 4px 12px;
+      font-size: 12.5px;
+      font-weight: 500;
+    }
+
+    .footer {
+      padding: 18px 32px;
+      background: #f0ece2;
+      border-top: 1px solid var(--line);
+      font-size: 12.5px;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    @media (max-width: 560px) {
+      .hero {
+        padding: 28px 22px 24px;
+      }
+      .body {
+        padding: 22px 22px 28px;
+      }
+      .footer {
+        padding: 16px 22px;
+      }
+      .hero h1 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="sheet">
+    <header class="hero">
+      <div class="kicker"><span class="dot"></span>LOCAL PRIVACY · 纯单机本地守护</div>
+      <h1>知行排程隐私政策</h1>
+      <div class="meta">
+        <span>应用名称：知行排程</span>
+        <span>包名：com.zhixing.personal</span>
+        <span>版本：v1.0.0（纯单机本地版）</span>
+        <span>生效与更新日期：2026年11月21日</span>
+      </div>
+      <div class="summary-strip">
+        感谢您信任并使用「知行排程」。本应用采用纯本地离线架构设计，不设账号体系，未申请网络权限，也不收集、存储或上传任何能够识别您个人身份的信息。
+      </div>
+    </header>
+
+    <div class="body">
+      <div class="badge-row">
+        <span class="badge">零网络权限</span>
+        <span class="badge">无第三方统计/广告 SDK</span>
+        <span class="badge">纯本机沙盒存储</span>
+        <span class="badge">支持一键清空本机数据</span>
+      </div>
+
+      <section>
+        <h2>一、信息收集与使用说明</h2>
+        <p>「知行排程」不申请 INTERNET 网络权限，不具备向远程服务器发送数据的能力。您在使用过程中录入的所有事务标题、截止日期、固定日程、筹备清单、回执备忘及专注时长，均仅用于在您的当前设备内完成空闲时间计算、冲突避让提示与历史归档展示。</p>
+      </section>
+
+      <section>
+        <h2>二、系统权限与传感器说明</h2>
+        <p>本应用不申请定位、通讯录、相册、相机、麦克风或网络访问权限。首页待办卡片的轻柔空间光影效果会读取设备重力加速度传感器瞬时倾角，该数据仅在设备内存中实时参与画面动效计算，不会被记录、保存或向外传输。</p>
+      </section>
+
+      <section>
+        <h2>三、本机数据存储与安全</h2>
+        <p>您的全部个人日程与偏好设置通过 HarmonyOS 系统提供的应用私有 Preferences 存储引擎保存在应用沙盒目录内，受系统级沙盒隔离机制保护，其他未经授权的第三方应用无法读取。</p>
+      </section>
+
+      <section>
+        <h2>四、第三方 SDK 与数据共享</h2>
+        <p>本应用未集成任何第三方统计分析、广告归因、消息推送或云同步 SDK，不存在向任何第三方共享、转让或公开披露您个人数据的情况。</p>
+      </section>
+
+      <section>
+        <h2>五、您的数据管理与清除权利</h2>
+        <p>您对本机存储的所有内容拥有完全控制权。您随时可以进入应用内「设置 → 本地数据管理」，点击「清空全部数据」立即重置或清除全部事务与日程记录；卸载本应用时，系统也会同步彻底清除沙盒内的全部本地数据。</p>
+      </section>
+
+      <section>
+        <h2>六、声明更新说明</h2>
+        <p>若未来版本功能调整涉及权限或本地存储机制变更，我们会在应用更新后的首次启动界面及本页面重新清晰告知并征得您的确认后方才生效。</p>
+      </section>
+
+      <section>
+        <h2>七、联系我们</h2>
+        <p>如您对本隐私政策或本地数据保护有任何疑问、意见或建议，可通过开发者联系邮箱与我们联系：<strong>112438989@qq.com</strong>。</p>
+      </section>
+    </div>
+
+    <footer class="footer">
+      <span>知行排程 · 本地隐私保护声明</span>
+      <span>适用平台：HarmonyOS</span>
+    </footer>
+  </main>
+</body>
+</html>
